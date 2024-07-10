@@ -82,10 +82,5 @@ outputs = { self, nixpkgs, home-manager, disko, chaotic, nix-gaming, ... }@input
                 ];                    
             };
         };
-        darwin-configuration = {
-            s0me-nix = nix-darwin.lib.darwinSystem {
-                modules = [  ];
-            };
-        };
     };
 }
