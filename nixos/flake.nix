@@ -78,6 +78,7 @@ outputs = { self, nixpkgs, home-manager, disko, chaotic, nix-gaming, ... }@input
             s0me-nix = nixpkgs.lib.nixosSystem {
                 system = "x86_64-linux";
                 modules = [  
+                    chaotic.nixosModules.default
                     ./configuration.nix
                 ];                    
             };
