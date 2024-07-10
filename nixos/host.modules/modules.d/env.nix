@@ -2,11 +2,7 @@
 
 {
     environment = {
-        systemPackages = with pkgs; [               # system-wide packages
-            # a good start is 'home-manager' package.
-            # check flake.nix on home-manager module in outputs!
-        ];
-        shellAliases = {                            # global aliases
+        systemPackages = with pkgs; [     
         usbutils
         pciutils
         qemu_full
@@ -17,8 +13,12 @@
         jdk8
         jdk11
         jdk17
-        qbittorrent
-        };
+        qbittorrent           # system-wide packages
+            # a good start is 'home-manager' package.
+            # check flake.nix on home-manager module in outputs!
+        ];
+        shellAliases = {                            # global aliases
+       };
 
         # below is options for disabling packages for DE's
 
