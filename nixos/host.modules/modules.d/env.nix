@@ -11,9 +11,6 @@
         pciutils
         qemu_full
         wineWowPackages.stableFull
-        mako
-        wl-clipboard
-        bottles
         htop
         steam
         yakuake
@@ -21,9 +18,6 @@
         jdk11
         jdk17
         qbittorrent
-
-        
-        
         };
 
         # below is options for disabling packages for DE's
