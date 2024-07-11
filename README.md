@@ -1,8 +1,7 @@
 <h1 align=center>myNixConf :snowflake:</h1>
 <h4 align=center>my ultimate nixos configuration (my main config xd)!! </h4>
 
-[image](https://github.com/aski425/myNixConf/assets/54905103/35ecdeee-2150-48a4-8485-a4c79cde88e2)
-
+[image (https://github.com/aski425/myNixConf/assets/54905103/35ecdeee-2150-48a4-8485-a4c79cde88e2)]
 
 <hr/>
 <br>
@@ -23,7 +22,7 @@ nix-channel --update
 
 clone **this repo**:
 ```shell
-git clone https://github.com/aski425/myNixConf/tree/main
+git clone https://github.com/aski425/myNixConf/main
 ```
 
 <h3 align=center> thirdly: </h3>
